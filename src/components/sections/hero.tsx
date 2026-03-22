@@ -14,7 +14,7 @@ export function HeroSection() {
       {/* Asymmetric split layout */}
       <div className="grid grid-cols-1 md:grid-cols-[1fr_1.2fr] min-h-[100dvh]">
         {/* Left — Text content */}
-        <div className="flex flex-col justify-center px-6 md:px-12 lg:px-20 pb-16 pt-32 md:pt-0 md:pb-32">
+        <div className="flex flex-col justify-center px-6 md:px-12 lg:px-20 pb-12 pt-24 md:pt-0 md:pb-32">
           <TextReveal>
             <span className="text-[11px] tracking-[0.3em] uppercase text-[#A8A8A8] font-light block mb-4">
               Spring / Summer 2026
@@ -28,7 +28,7 @@ export function HeroSection() {
           </div>
 
           <TextReveal delay={0.2}>
-            <p className="text-base text-[#888888] leading-relaxed max-w-[38ch] font-light mb-7">
+            <p className="text-[15px] sm:text-base text-[#999999] leading-relaxed max-w-[38ch] font-light mb-7">
               Garments shaped by movement and city texture.
               Quiet construction, honest materials, nothing wasted.
             </p>

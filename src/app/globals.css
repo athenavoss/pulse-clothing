@@ -42,7 +42,7 @@ body::-webkit-scrollbar {
 
 /* Unified color grade on all content images */
 main img {
-  filter: saturate(0.7) contrast(1.08) brightness(0.95);
+  filter: saturate(0.7) contrast(1.08) brightness(1.15);
 }
 
 /* Film grain overlay for photographic cohesion */

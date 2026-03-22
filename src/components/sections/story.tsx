@@ -8,7 +8,7 @@ import { ArrowRight } from "@phosphor-icons/react";
 
 export function StorySection() {
   return (
-    <section id="story" className="bg-[#0A0A0A] py-24 md:py-40">
+    <section id="story" className="bg-[#0A0A0A] py-16 md:py-32">
       <div className="max-w-[1400px] mx-auto px-6 md:px-12">
         <div className="grid grid-cols-1 md:grid-cols-[1fr_1.4fr] gap-12 md:gap-20 items-center">
           {/* Left — Editorial copy */}
@@ -28,7 +28,7 @@ export function StorySection() {
             </ClipTextReveal>
 
             <TextReveal delay={0.16}>
-              <p className="text-base text-[#888888] leading-relaxed max-w-[50ch] font-light mb-6">
+              <p className="text-base text-[#999999] leading-relaxed max-w-[50ch] font-light mb-6">
                 PULSE started in a garage in East London with a single conviction:
                 clothing should age well. We source deadstock fabrics, overdye in
                 small batches, and cut patterns that settle into the body over time
@@ -37,7 +37,7 @@ export function StorySection() {
             </TextReveal>
 
             <TextReveal delay={0.24}>
-              <p className="text-base text-[#888888] leading-relaxed max-w-[50ch] font-light">
+              <p className="text-base text-[#999999] leading-relaxed max-w-[50ch] font-light">
                 No seasonal churn. No trend forecasting. We release when the
                 garment is finished, not when the calendar says so. Every piece is
                 enzyme-washed once and garment-dyed twice. The color you get on day

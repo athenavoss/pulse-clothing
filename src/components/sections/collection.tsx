@@ -15,7 +15,7 @@ const products = [
 
 export function CollectionSection() {
   return (
-    <section id="collection" className="bg-[#0A0A0A] py-24 md:py-36">
+    <section id="collection" className="bg-[#0A0A0A] py-16 md:py-36">
       <div className="max-w-[1400px] mx-auto px-6 md:px-12">
         {/* Section header */}
         <div className="flex flex-col md:flex-row md:items-end md:justify-between mb-16 md:mb-24">
@@ -32,7 +32,7 @@ export function CollectionSection() {
             </TextReveal>
           </div>
           <TextReveal delay={0.16}>
-            <p className="text-[13px] text-[#888888] font-light tracking-wide mt-4 md:mt-0 max-w-[28ch]">
+            <p className="text-[13px] text-[#999999] font-light tracking-wide mt-4 md:mt-0 max-w-[28ch]">
               Six essentials. Cut clean, dyed slow, made to stay.
             </p>
           </TextReveal>

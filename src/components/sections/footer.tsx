@@ -31,7 +31,7 @@ export function FooterSection() {
       {/* Three-column grid */}
       <div className="max-w-[1400px] mx-auto px-6 md:px-12 pb-16">
         <div className="border-t border-[#A8A8A8]/10 pt-12 md:pt-16">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-8">
             {/* SHOP */}
             <div>
               <span className="text-[11px] tracking-[0.3em] uppercase text-[#A8A8A8] font-light block mb-6">
@@ -42,7 +42,7 @@ export function FooterSection() {
                   <li key={item}>
                     <a
                       href="#"
-                      className="text-[13px] font-light text-[#A8A8A8]/60 hover:text-white transition-colors duration-300"
+                      className="text-[13px] font-light text-[#A8A8A8]/80 hover:text-white transition-colors duration-300"
                     >
                       {item}
                     </a>
@@ -61,7 +61,7 @@ export function FooterSection() {
                   <li key={item}>
                     <a
                       href="#"
-                      className="text-[13px] font-light text-[#A8A8A8]/60 hover:text-white transition-colors duration-300"
+                      className="text-[13px] font-light text-[#A8A8A8]/80 hover:text-white transition-colors duration-300"
                     >
                       {item}
                     </a>
@@ -82,7 +82,7 @@ export function FooterSection() {
                   className="text-[#A8A8A8]/40 hover:text-white transition-colors duration-300"
                   strength={0.4}
                 >
-                  <InstagramLogo size={20} weight="light" />
+                  <InstagramLogo size={24} weight="light" />
                 </MagneticButton>
                 <MagneticButton
                   as="a"
@@ -90,7 +90,7 @@ export function FooterSection() {
                   className="text-[#A8A8A8]/40 hover:text-white transition-colors duration-300"
                   strength={0.4}
                 >
-                  <TiktokLogo size={20} weight="light" />
+                  <TiktokLogo size={24} weight="light" />
                 </MagneticButton>
               </div>
 
@@ -110,7 +110,7 @@ export function FooterSection() {
                     onFocus={() => setFocused(true)}
                     onBlur={() => setFocused(false)}
                     placeholder="Email for updates"
-                    className="flex-1 bg-transparent text-[13px] font-light text-[#C0C0C0] placeholder:text-[#A8A8A8]/30 outline-none"
+                    className="flex-1 bg-transparent text-[13px] font-light text-[#C0C0C0] placeholder:text-[#A8A8A8]/70 outline-none"
                   />
                   <button
                     type="submit"
@@ -121,7 +121,7 @@ export function FooterSection() {
                   </button>
                 </div>
                 {/* Static base line */}
-                <div className="absolute bottom-0 left-0 right-0 h-px bg-[#A8A8A8]/20" />
+                <div className="absolute bottom-0 left-0 right-0 h-px bg-[#A8A8A8]/35" />
                 {/* Expanding active line */}
                 <motion.div
                   className="absolute bottom-0 left-0 h-px bg-white origin-left"
@@ -137,21 +137,21 @@ export function FooterSection() {
       </div>
 
       {/* Bottom bar */}
-      <div className="max-w-[1400px] mx-auto px-6 md:px-12 pb-8">
+      <div className="max-w-[1400px] mx-auto px-6 md:px-12 pb-16">
         <div className="border-t border-[#A8A8A8]/10 pt-6 flex flex-col md:flex-row md:items-center md:justify-between gap-4">
-          <span className="text-[11px] tracking-[0.15em] font-light text-[#A8A8A8]/30 uppercase">
+          <span className="text-[11px] tracking-[0.15em] font-light text-[#A8A8A8]/70 uppercase">
             &copy; 2026 Pulse. All rights reserved.
           </span>
           <div className="flex items-center gap-6">
             <a
               href="#"
-              className="text-[11px] tracking-[0.15em] font-light text-[#A8A8A8]/30 uppercase hover:text-white transition-colors duration-300"
+              className="text-[11px] tracking-[0.15em] font-light text-[#A8A8A8]/70 uppercase hover:text-white transition-colors duration-300"
             >
               Privacy
             </a>
             <a
               href="#"
-              className="text-[11px] tracking-[0.15em] font-light text-[#A8A8A8]/30 uppercase hover:text-white transition-colors duration-300"
+              className="text-[11px] tracking-[0.15em] font-light text-[#A8A8A8]/70 uppercase hover:text-white transition-colors duration-300"
             >
               Terms
             </a>
