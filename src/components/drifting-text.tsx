@@ -28,6 +28,7 @@ export const DriftingText = memo(function DriftingText({
       >
         <span className="inline-block pr-[4vw]">{text}</span>
         <span className="inline-block pr-[4vw]">{text}</span>
+        <span className="inline-block pr-[4vw]">{text}</span>
       </motion.div>
     </div>
   );

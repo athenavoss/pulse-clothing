@@ -7,7 +7,7 @@ import Image from "next/image";
 const productImages: Record<string, string> = {
   "pulse-washed-tee": "https://images.pexels.com/photos/6863599/pexels-photo-6863599.jpeg?auto=compress&cs=tinysrgb&w=600&h=800&fit=crop",
   "pulse-cargo-pant": "https://images.pexels.com/photos/5319511/pexels-photo-5319511.jpeg?auto=compress&cs=tinysrgb&w=600&h=800&fit=crop",
-  "pulse-heavyweight-hoodie": "https://images.pexels.com/photos/5319514/pexels-photo-5319514.jpeg?auto=compress&cs=tinysrgb&w=600&h=800&fit=crop",
+  "pulse-heavyweight-hoodie": "https://cdn.picsart.io/3742e23a-cd6f-46db-a86d-36ef0f1fde7b.jpg?type=jpg&to=max&r=0",
   "pulse-work-jacket": "https://images.pexels.com/photos/4065842/pexels-photo-4065842.jpeg?auto=compress&cs=tinysrgb&w=600&h=800&fit=crop",
   "pulse-ribbed-tank": "https://images.pexels.com/photos/5320165/pexels-photo-5320165.jpeg?auto=compress&cs=tinysrgb&w=600&h=800&fit=crop",
   "pulse-pleated-wide": "https://images.pexels.com/photos/7000904/pexels-photo-7000904.jpeg?auto=compress&cs=tinysrgb&w=600&h=800&fit=crop",

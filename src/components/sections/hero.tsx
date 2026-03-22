@@ -14,7 +14,7 @@ export function HeroSection() {
       {/* Asymmetric split layout */}
       <div className="grid grid-cols-1 md:grid-cols-[1fr_1.2fr] min-h-[100dvh]">
         {/* Left — Text content */}
-        <div className="flex flex-col justify-center px-6 md:px-12 lg:px-20 pb-12 pt-24 md:pt-0 md:pb-32">
+        <div className="flex flex-col justify-center px-6 md:px-12 lg:px-20 pb-12 pt-24 md:pt-16 md:pb-24">
           <TextReveal>
             <span className="text-[11px] tracking-[0.3em] uppercase text-[#A8A8A8] font-light block mb-4">
               Spring / Summer 2026
@@ -55,7 +55,7 @@ export function HeroSection() {
             transition={{ duration: 1.2, ease: [0.16, 1, 0.3, 1] }}
           >
             <KenBurnsImage
-              src="https://images.pexels.com/photos/5840443/pexels-photo-5840443.jpeg?auto=compress&cs=tinysrgb&w=1200&h=1600&fit=crop"
+              src="https://cdn.picsart.io/61c3ad08-9f4f-4aae-9ba4-ceeeeb99a4d8.jpg?type=jpg&to=max&r=0"
               alt="Editorial fashion photography"
               sizes="(max-width: 768px) 100vw, 55vw"
               priority
